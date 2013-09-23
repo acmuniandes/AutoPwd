@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AutoPwd Uniandes Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <label>Usuario: <input type="text" id="usr"/></label><br />
+    <label>Contrase&ntilde;a: <input type="password" id="pwd" /></label><br />
+    <label>Correo Alterno: </label><input type="text" id="mail" /></label><br />    
+    
+
+
+    <button id="btnCambiar">Guardar Informaci&oacute;n</button><button id="btnExe">Ejecutar</button>
+
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="jquery.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    
+  </body>
+</html>
+

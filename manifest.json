@@ -1,0 +1,29 @@
+{
+  //AUTHOR EL PATRON
+  "manifest_version": 2,
+
+  "name": "AutoPwd Uniandes",
+  "description": "Automatiza el cambio de contraseña del correo Uniandes.",
+  "version": "1.0",
+
+  "icons": {"48": "icon48.png",
+          "128": "icon128.png" },
+
+
+
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_popup": "popup.html"
+  },
+
+  "background":{
+    "scripts": ["jquery.js", "background.js"]
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://cuenta.uniandes.edu.co/Cuenta/cambioclave.jsp",
+    "background"
+  ]
+}
